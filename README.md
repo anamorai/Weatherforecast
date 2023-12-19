@@ -4,7 +4,7 @@ I was required to create a 5 Day Weather forecast that retrieved weather data fo
 
 * Has a dashboard with form inputs.
 * Allows a user to search for a city and then see the current weather conditions for that city.
-* Allows a user to view future weather conditions for that city and are presented with a 5-day forecast that displays
+* Allows a user to view future weather conditions for that city and are presented with a 5-day forecast 
 * Allows a user to click on a city in the search history and are again presented with current and future conditions for that city
 
 ## Installation
@@ -14,20 +14,8 @@ To open the project please follow this link: https://anamorai.github.io/Password
 
 Once you open the URL, you will see the following:
 
-![This is the first thing you will see after opening the website](assets/1.png)
+![This is the first thing you will see after opening the website](assets/images/Img1.png)
 
-
-By clicking on the 'Generate Password' button you will see a series of prompts. It will look like this: 
-
-![If you scroll down, it will look like this](assets/2.png)
-
-If you were to enter in something incorrectly, I have programmed an alert. It will look like this: 
-
-![If you scroll down, it will look like this](assets/3.png)
-
-Once you have completed all prompts, a password will be generated for you. It will look like this: 
-
-![If you scroll down, it will look like this](assets/4.png)
 
 ## Badges
 
