@@ -9,7 +9,7 @@ I was required to create a 5 Day Weather forecast that retrieved weather data fo
 
 ## Installation
 
-To open the project please follow this link: https://anamorai.github.io/Password-Generator/
+To open the project please follow this link: https://anamorai.github.io/Weatherforecast/
 ## Usage 
 
 Once you open the URL, you will see the following:
@@ -19,8 +19,8 @@ Once you open the URL, you will see the following:
 
 ## Badges
 
-![GitHub deployments](https://img.shields.io/github/deployments/anamorai/Password-Generator/github-pages)
-![GitHub top language](https://img.shields.io/github/languages/top/anamorai/Password-Generator)
+![GitHub deployments](https://img.shields.io/github/deployments/anamorai/Weatherforecast/github-pages)
+![GitHub top language](https://img.shields.io/github/languages/top/anamorai/Weatherforecast)
 
 
 ## Features
