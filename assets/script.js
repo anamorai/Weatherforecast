@@ -4,7 +4,7 @@ var apiKey = "f6672cc6e9cb17c1050849aae4579382";
 // Search History
 var searchHistoryList = [];
 // Date using Moment.js
-var today = moment().format('L');
+var today = moment().format('MMMM Do YYYY');
 
 // Function for current condition
 function currentWeather(city) {
@@ -71,7 +71,7 @@ function futureWeather(lat, lon) {
                 wind_speed: futureResponse.daily[i].wind_speed,
                 humidity: futureResponse.daily[i].humidity
             };
-            var currentDate = moment.unix(cityInfo.date).format("MM/DD/YYYY");
+            var currentDate = moment.unix(cityInfo.date).format("Do MMMM");
             var weatherIconURL = `<img src="https://openweathermap.org/img/w/${cityInfo.icon}.png" alt="${futureResponse.daily[i].weather[0].main}" />`;
 
             var futureWeatherCard = $(`
