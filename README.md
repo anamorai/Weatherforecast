@@ -2,25 +2,10 @@
 
 I was required to create a 5 Day Weather forecast that retrieved weather data for cities that:
 
-* Had a dashboard with form inputs.
-  * When a user searches for a city they are presented with current and future conditions for that city and that city is added to the search history
-  * When a user views the current weather conditions for that city they are presented with:
-    * The city name
-    * The date
-    * An icon representation of weather conditions
-    * The temperature
-    * The humidity
-    * The wind speed
-  * When a user view future weather conditions for that city they are presented with a 5-day forecast that displays:
-    * The date
-    * An icon representation of weather conditions
-    * The temperature
-    * The humidity
-  * When a user click on a city in the search history they are again presented with current and future conditions for that city
-
-* Generate a password when the button is clicked
-* Present a series of prompts for password criteria
-* Once prompts are answered then the password should be generated and displayed in an alert or written to the page
+* Has a dashboard with form inputs.
+* Allows a user to search for a city and then see the current weather conditions for that city.
+* Allows a user to view future weather conditions for that city and are presented with a 5-day forecast that displays
+* Allows a user to click on a city in the search history and are again presented with current and future conditions for that city
 
 ## Installation
 
@@ -52,14 +37,13 @@ Once you have completed all prompts, a password will be generated for you. It wi
 
 ## Features
 
-- A series of prompts for password criteria including:
-- Length of password: At least 8 characters but no more than 128.
-- Character types: Lowercase, Uppercase, Numeric and Special characters ($@%&*, etc)
-- Code validates for each input and requires at least one character type to be selected
+* A dashboard with form inputs.
+* Allows a user to search for a city and then see the current weather conditions and a 5 day forecast for that city.
+* Search history stored in local storage.
 
 ## Credits
 
-I would like to refrence my bootcamp course, EdX and my tutor Praktiko for the great lessons provided which gave me the skills necessary to be able to complete this project. 
+I would like to refrence my bootcamp course, EdX and my tutor Praktiko for the great lessons provided which gave me the skills necessary to be able to complete this project. I would also like to reference W3Schools for the plethora of information that I have been able to learn from. I would also like to give credit to my tutors for guiding me in this project and being a great support.
 
 ## License
 
@@ -84,70 +68,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
-
-
-
-## Mock-Up
-
-The following image shows the web application's appearance and functionality:
-
-![The weather app includes a search option, a list of cities, and a five-day forecast and current weather conditions for London.](./assets/10-server-side-apis-challenge-demo.png)
-
-## Grading Requirements
-
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
-
-This Challenge is graded based on the following criteria:
-
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the homework instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a readme describing the project.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

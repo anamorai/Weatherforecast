@@ -73,7 +73,7 @@ function futureWeather(lat, lon) {
             };
             var currentDate = moment.unix(cityInfo.date).format("MM/DD/YYYY");
             var weatherIconURL = `<img src="https://openweathermap.org/img/w/${cityInfo.icon}.png" alt="${futureResponse.daily[i].weather[0].main}" />`;
-            
+
             var futureWeatherCard = $(`
                 <div class="pl-3">
                 <div class="card pl-3 pt-3 mb-3 bg text-light" style="width: 12rem;>
